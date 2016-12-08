@@ -4,7 +4,7 @@
 	border:0;
 	outline:0;
 }
-
+/* wrapper voor inhoudsopgave */
 #wrapper1{
 	width:20%;
 	height:25%;
@@ -24,13 +24,14 @@
 
 }
 
-
+/* wrapper2 voor voorwoord */
 #wrapper2{
 	margin-left:150px;
 	margin-top:20px;
 	width:60%;
 	height:auto;
-	background-color: pink;
+	background-color: green;
+
 }
 
 #voorwoord{
@@ -40,10 +41,20 @@
 	line-height: 14pt;
 	float:left; 
 	width:100%;
-	background-color: blue;
+	padding-bottom: 20px;
 }
 
 
+/* wrapper3 voor lijden */
+
+#wrapper3{
+	margin-left:150px;
+	margin-top:20px;
+	width:60%;
+	height:auto;
+	background-color: red;
+
+}
 
 #lijden{
 	text-align:left;
@@ -52,5 +63,5 @@
 	line-height: 14pt;
 	float:left; 
 	width:100%;
-	background-color:red;
+	
 }
