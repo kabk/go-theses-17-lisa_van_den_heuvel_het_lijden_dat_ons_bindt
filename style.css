@@ -60,11 +60,11 @@
 	line-height: 9pt;
 	padding-left: 100px;
 	
-	
-}
+	}
 
-@media screen and (max-width:600px;) {
+@media screen and (max-width:768px;) {
 	.hoofdstuk .bron {
+
 		position: static;
 	}
-}
+
