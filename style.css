@@ -8,7 +8,7 @@
 
 #inhoudsopgave{
 	text-align: left;
-	font-size:8pt;
+	font-size: 8pt;
 	font-family: Andale Mono;
 	line-height: 12pt;
 	margin-left:20px;
@@ -16,7 +16,7 @@
 	width:100%;
 	width:20%;
 	height:25%;
-	background-color: yellow;
+	
 
 }
 
@@ -27,13 +27,12 @@
 	font-family: Andale Mono;
 	line-height: 14pt;
 	float:left; 
-	width:100%;
 	padding-bottom: 40px;
 	margin-left:150px;
 	margin-top:20px;
-	width:60%;
+	width:64%;
 	height:auto;
-	background-color: green;
+	
 }
 
 
@@ -44,10 +43,8 @@
 	font-family: Andale Mono;
 	line-height: 14pt;
 	float:left; 
-	width:100%;
-	width:60%;
+	width:64%;
 	height:auto;
-	background-color: red;
 	margin-left:150px;
 	margin-top:20px;
 	
@@ -55,3 +52,19 @@
 
 
 
+.hoofdstuk .bron {
+	position: absolute;
+	right: 4px;
+	width: 80px;
+	font-size:6pt;
+	line-height: 9pt;
+	padding-left: 100px;
+	
+	
+}
+
+@media screen and (max-width:600px;) {
+	.hoofdstuk .bron {
+		position: static;
+	}
+}
