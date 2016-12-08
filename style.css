@@ -4,13 +4,7 @@
 	border:0;
 	outline:0;
 }
-/* wrapper voor inhoudsopgave */
-#wrapper1{
-	width:20%;
-	height:25%;
-	background-color: yellow;
 
-}
 
 #inhoudsopgave{
 	text-align: left;
@@ -20,19 +14,12 @@
 	margin-left:20px;
 	margin-top: 30px;
 	width:100%;
-
-
-}
-
-/* wrapper2 voor voorwoord */
-#wrapper2{
-	margin-left:150px;
-	margin-top:20px;
-	width:60%;
-	height:auto;
-	background-color: green;
+	width:20%;
+	height:25%;
+	background-color: yellow;
 
 }
+
 
 #voorwoord{
 	text-align:left;
@@ -41,20 +28,15 @@
 	line-height: 14pt;
 	float:left; 
 	width:100%;
-	padding-bottom: 20px;
-}
-
-
-/* wrapper3 voor lijden */
-
-#wrapper3{
+	padding-bottom: 40px;
 	margin-left:150px;
 	margin-top:20px;
 	width:60%;
 	height:auto;
-	background-color: red;
-
+	background-color: green;
 }
+
+
 
 #lijden{
 	text-align:left;
@@ -63,5 +45,13 @@
 	line-height: 14pt;
 	float:left; 
 	width:100%;
+	width:60%;
+	height:auto;
+	background-color: red;
+	margin-left:150px;
+	margin-top:20px;
 	
 }
+
+
+
