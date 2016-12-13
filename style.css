@@ -29,7 +29,7 @@
 	float:left; 
 	padding-bottom: 40px;
 	margin-left:150px;
-	margin-top:20px;
+	margin-top:40px;
 	width:64%;
 	height:auto;
 	
@@ -47,18 +47,89 @@
 	height:auto;
 	margin-left:150px;
 	margin-top:20px;
+	padding-bottom: 40px;
 	
 }
 
+#psychologie{
+	text-align:left;
+	font-size:10pt;
+	font-family: Andale Mono;
+	line-height: 14pt;
+	float:left; 
+	width:64%;
+	height:auto;
+	margin-left:150px;
+	margin-top:20px;
+	padding-bottom: 40px;
+	
+}
 
+#hetsublieme{
+	text-align:left;
+	font-size:10pt;
+	font-family: Andale Mono;
+	line-height: 14pt;
+	float:left; 
+	width:64%;
+	height:auto;
+	margin-left:150px;
+	margin-top:20px;
+	padding-bottom: 40px;
+
+}
+
+#afstand{
+	text-align:left;
+	font-size:10pt;
+	font-family: Andale Mono;
+	line-height: 14pt;
+	float:left; 
+	width:64%;
+	height:auto;
+	margin-left:150px;
+	margin-top:20px;
+	padding-bottom: 40px;
+
+}
+
+
+#kunst{
+	text-align:left;
+	font-size:10pt;
+	font-family: Andale Mono;
+	line-height: 14pt;
+	float:left; 
+	width:64%;
+	height:auto;
+	margin-left:150px;
+	margin-top:20px;
+	padding-bottom: 40px;
+
+}
+
+#conclusie{
+	text-align:left;
+	font-size:10pt;
+	font-family: Andale Mono;
+	line-height: 14pt;
+	float:left; 
+	width:64%;
+	height:auto;
+	margin-left:150px;
+	margin-top:20px;
+	padding-bottom: 40px;
+
+}
 
 .hoofdstuk .bron {
 	position: absolute;
 	right: 4px;
-	width: 80px;
+	width: 100px;
 	font-size:6pt;
 	line-height: 9pt;
 	padding-left: 100px;
+
 	
 	}
 
