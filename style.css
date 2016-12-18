@@ -12,6 +12,7 @@
 	text-align:left;
 	font-size:12pt;
 	font-family: Andale Mono;
+	letter-spacing: 1px;
 	line-height: 15pt;
 	padding-bottom: 40px;
 	margin-left:150px;
@@ -132,7 +133,6 @@
 	line-height: 9pt;
 	padding-left: 100px;
 	
-
 	
 	}
 
@@ -150,9 +150,9 @@
 	width:20%;
 	height:25%;
 	text-decoration: none;
-
-
 }
+
+
 
 a{
 	text-decoration: none;
@@ -169,13 +169,14 @@ ul{
 
 
 header{
-	font-family: Andale Mono;
+	font-family: akkurat;
 	margin-left:50px;
-	font-size: 40pt;
-	margin-top: 40px;
+	font-size: 45pt;
+	margin-top: 60px;
 	margin-right:20px;
 	text-align: center;
-	line-height: 40pt;
+	line-height: 60pt;
+	padding:0px;
 }
 
 
