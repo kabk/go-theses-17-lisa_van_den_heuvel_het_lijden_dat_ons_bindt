@@ -26,6 +26,12 @@
 
 }
 
+.menubalk ul li {
+	margin-right: 40px;
+	margin-bottom: 10px;
+	word-spacing: 0.5px;
+}
+
 
 
 #voorwoord{
@@ -272,7 +278,7 @@ body {
   .page-break {
   	page-break-after: always;
   	color:black;
-}
+	}
 
 
 
@@ -298,24 +304,29 @@ div.menubalk {
 	background-color: white;
 	position: absolute;
 	top: 0;
+	left: 0;
+	width: 900px !important;
+	-webkit-transform: translateX(-350px) translateY(450px) rotateZ(-90deg);
+	transform: translateX(-350px) translateY(450px) rotateZ(-90deg);
 	padding: 0;
-	margin: 0; 
+	margin-left: -70px;
 	width: initial;
 }
 
-ul {
-	margin-left: 110px;
+div.menubalk ul {
+	margin: 0;
 	padding: 0;
 
 }
 
-
-div.menubalk li {
+div.menubalk ul li {
 	color: black;
 	display: inline-block;
 	float: initial;
 	height: 24px;
-	position: static;
+	margin-left: 0 !important;
+	margin-right: 20px !important;
+	text-decoration: underline;
 }
 
 
