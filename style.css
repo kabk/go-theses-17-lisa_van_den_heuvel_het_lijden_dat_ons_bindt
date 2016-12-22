@@ -8,18 +8,6 @@
 
 
 
-.inhoudsopgave {
- 	text-align: left;
-	font-size: 8pt;
-	font-family: Andale Mono;
-	line-height: 12pt;
-	margin-left:20px;
-	margin-top: 130px;
-	width:100%;
-	width:20%;
-	height:25%;
-	text-decoration: none;
-}
 
 
 .menubalk {
@@ -30,10 +18,11 @@
 	padding: 2% 5%;
 	font-size: 9px;
 	background-color: black;
-	width: 100%;
+	width: 80%;
 	font-family: Andale Mono;
 	letter-spacing:-0.1pt;
 	color: white;
+	margin-left: 1cm;
 
 }
 
@@ -46,9 +35,9 @@
 	letter-spacing: 1px;
 	line-height: 15pt;
 	padding-bottom: 40px;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:200px;
-	width:59%;
+	width:62%;
 	height:auto;
 	letter-spacing:-0.1pt;
 
@@ -63,9 +52,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -78,9 +67,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -93,9 +82,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -108,9 +97,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -124,9 +113,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -139,9 +128,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -155,9 +144,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -171,9 +160,9 @@
 	font-family: Andale Mono;
 	line-height: 15pt;
 	float:left; 
-	width:59%;
+	width:60%;
 	height:auto;
-	margin-left:150px;
+	margin-left:110px;
 	margin-top:20px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
@@ -194,6 +183,14 @@
     height: auto;
     padding-bottom:40px; 
 }
+
+.image2{
+	width: 70%;
+    height: auto;
+    padding-bottom:40px; 
+
+}
+
 
 
 
@@ -227,7 +224,7 @@ h1{
 	font-family: akkurat;
 	font-size: 45pt;
 	line-height: 40pt;
-    letter-spacing:1.0pt;
+    letter-spacing:-0.1pt;
 
 
 
@@ -247,13 +244,17 @@ header{
 
 body {
     color: white;
-
 }
 
 
 
-#p2 {
-  text-indent: 40px;
+
+
+@media screen and (max-width:768px;) {
+	.hoofdstuk .bron {
+
+		position: static;
+	}
 }
 
 
@@ -261,42 +262,75 @@ body {
 
 
 @media print {
+    @page {
+        margin-top: 1.5cm;
+        margin-bottom: 1.6cm;
+  
+    }
+
+
   .page-break {
   	page-break-after: always;
   	color:black;
 }
 
 
-body{
-color:black;
-line-height: 1.3pt;
-font-size: 12pt;
-	}
 
- div.menubalk {
-  	 top: 0;
-	position: fixed;
+
+.image2 {
+    display: none !important;
+    -webkit-filter:grayscale(100%); 
   }
+
+
+* {
+	background-color: white;
+}
+
+body{
+	color:black;
+	line-height: 1.3pt;
+	font-size: 12pt;
+}
+
+
+div.menubalk {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	margin: 0; 
+	width: initial;
+}
+
+ul {
+	margin-left: 110px;
+	padding: 0;
+
+}
+
+
+div.menubalk li {
+	color: black;
+	display: inline-block;
+	float: initial;
+	height: 24px;
+	position: static;
+}
 
 
 #bijlage{
    page-break-before: always;
 }
 
-.hoofdstuk #conclusie{
+#conclusie{
    page-break-before: always;
 }
 
-@page:{
-margin: 1.2cm;
+#lijden{
+   page-break-before: always;
 }
 
-}
 
-@media screen and (max-width:768px;) {
-	.hoofdstuk .bron {
-
-		position: static;
-	}
 }
 
