@@ -43,7 +43,7 @@
 	line-height: 15pt;
 	padding-bottom: 40px;
 	margin-left:110px;
-	margin-top:230px;
+	margin-top:200px;
 	width:62%;
 	height:auto;
 	letter-spacing:-0.1pt;
@@ -200,7 +200,7 @@
 		}
 
 .image{
-	width: 100%;
+	width: 80%;
     height: auto;
     padding-bottom:40px; 
 }
@@ -306,13 +306,11 @@ img {
 	background-color: white;
 }
 
-
-
-body{
+body {
 	color:black;
 	line-height: 1.3pt;
-	font-size: 12pt;
-}
+	font-size: 11pt;
+	}
 
 
 div.menubalk {
@@ -342,10 +340,15 @@ div.menubalk ul li {
 
 }
 
+*
+.menubalk
+{
+  display: none;
+}
 
-
-
-
+.noPrint {
+    display:none;
+  }
 
 
 
