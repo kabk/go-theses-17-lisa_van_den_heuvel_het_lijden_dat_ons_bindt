@@ -28,8 +28,9 @@
 
 .menubalk ul li {
 	margin-right: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	word-spacing: 0.5px;
+
 }
 
 
@@ -42,7 +43,7 @@
 	line-height: 15pt;
 	padding-bottom: 40px;
 	margin-left:110px;
-	margin-top:200px;
+	margin-top:230px;
 	width:62%;
 	height:auto;
 	letter-spacing:-0.1pt;
@@ -144,7 +145,7 @@
 }
 
 
-#bijlage{
+#bijlagen{
 	text-align:left;
 	font-size:12pt;
 	font-family: Andale Mono;
@@ -159,6 +160,20 @@
 
 }
 
+#bronnen{
+	text-align:left;
+	font-size:12pt;
+	font-family: Andale Mono;
+	line-height: 15pt;
+	float:left; 
+	width:60%;
+	height:auto;
+	margin-left:110px;
+	margin-top:20px;
+	padding-bottom: 40px;
+	letter-spacing:-0.1pt;
+
+}
 
 #abstract{
 	text-align:left;
@@ -238,13 +253,14 @@ h1{
 
 header{
 	font-family: akkurat;
-	margin-left:50px;
+	margin-left:40px;
 	font-size: 45pt;
 	margin-top: 60px;
 	margin-right:20px;
 	text-align: center;
 	line-height: 60pt;
 	padding-top:30px;
+
 }
 
 
@@ -281,17 +297,16 @@ body {
 	}
 
 
-
-
-.image2 {
-    display: none !important;
-    -webkit-filter:grayscale(100%); 
-  }
-
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 
 * {
 	background-color: white;
 }
+
+
 
 body{
 	color:black;
@@ -303,12 +318,8 @@ body{
 div.menubalk {
 	background-color: white;
 	position: absolute;
-	top: 0;
+	top: -10;
 	left: 0;
-	width: 900px !important;
-	-webkit-transform: translateX(-350px) translateY(450px) rotateZ(-90deg);
-	transform: translateX(-350px) translateY(450px) rotateZ(-90deg);
-	padding: 0;
 	margin-left: -70px;
 	width: initial;
 }
@@ -317,30 +328,26 @@ div.menubalk ul {
 	margin: 0;
 	padding: 0;
 
+
 }
 
 div.menubalk ul li {
 	color: black;
 	display: inline-block;
-	float: initial;
-	height: 24px;
-	margin-left: 0 !important;
-	margin-right: 20px !important;
-	text-decoration: underline;
+	height: 12px;
+	margin-left: 130 !important;
+	margin-right: 0px !important;
+	text-decoration: none;
+
+
 }
 
 
-#bijlage{
-   page-break-before: always;
-}
 
-#conclusie{
-   page-break-before: always;
-}
 
-#lijden{
-   page-break-before: always;
-}
+
+
+
 
 
 }
