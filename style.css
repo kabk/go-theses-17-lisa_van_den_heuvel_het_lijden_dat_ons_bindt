@@ -7,7 +7,10 @@
 }
 
 
-
+*{
+	background-color: white;
+	color:black;
+}
 
 
 .menubalk {
@@ -16,8 +19,8 @@
 	top: 0;
 	position: fixed;
 	padding: 2% 5%;
-	font-size: 9px;
-	background-color: black;
+	font-size: 8px;
+	background-color: white;
 	width: 80%;
 	font-family: Andale Mono;
 	letter-spacing:-0.1pt;
@@ -43,7 +46,7 @@
 	line-height: 15pt;
 	padding-bottom: 40px;
 	margin-left:110px;
-	margin-top:200px;
+	margin-top:270px;
 	width:62%;
 	height:auto;
 	letter-spacing:-0.1pt;
@@ -62,7 +65,7 @@
 	width:60%;
 	height:auto;
 	margin-left:110px;
-	margin-top:20px;
+	margin-top:120px;
 	padding-bottom: 40px;
 	letter-spacing:-0.1pt;
 
@@ -215,6 +218,7 @@
 
 
 
+
 a{
 	text-decoration: none;
 	font-color:black;
@@ -239,13 +243,17 @@ li {
     float: left;
 }
 
-
+sup {
+	font-size: 11px;
+	line-height: 7px;
+}
 
 h1{
 	font-family: akkurat;
-	font-size: 45pt;
-	line-height: 40pt;
+	font-size: 60pt;
+	line-height: 60pt;
     letter-spacing:-0.1pt;
+    text-align: center;
 
 
 
@@ -254,11 +262,11 @@ h1{
 header{
 	font-family: akkurat;
 	margin-left:40px;
-	font-size: 45pt;
-	margin-top: 60px;
+	font-size: 70pt;
+	margin-top: 110px;
 	margin-right:20px;
 	text-align: center;
-	line-height: 60pt;
+	line-height: 80pt;
 	padding-top:30px;
 
 }
@@ -280,7 +288,11 @@ body {
 }
 
 
-
+/* 
+eerst id's : #belangrijk 
+dan classes : .zo
+dan basis elementen zoals p
+*/
 
 
 @media print {
@@ -289,6 +301,51 @@ body {
         margin-bottom: 1.6cm;
   
     }
+
+.hoofdstuk {
+	margin-left: 70 !important;
+}
+
+#voorwoord{
+	font-size: 10pt;
+}
+
+#lijden{
+	font-size: 10pt;
+}
+
+#psychologie{
+	font-size: 10pt;
+}
+
+#hetsublieme{
+	font-size: 10pt;
+}
+
+#afstand{
+	font-size: 10pt;
+}
+
+#kunst{
+	font-size: 10pt;
+}
+
+#conclusie{
+	font-size: 10pt;
+}
+
+#bijlagen{
+	font-size: 10pt;
+}
+
+#bronnen{
+	font-size: 10pt;
+}
+
+#abstract{
+	font-size: 10pt;
+}
+
 
 
   .page-break {
@@ -309,7 +366,7 @@ img {
 body {
 	color:black;
 	line-height: 1.3pt;
-	font-size: 11pt;
+	font-size: 2pt;
 	}
 
 
@@ -318,6 +375,8 @@ div.menubalk {
 	position: absolute;
 	top: -10;
 	left: 0;
+		padding: 0;
+
 	margin-left: -70px;
 	width: initial;
 }
@@ -336,13 +395,11 @@ div.menubalk ul li {
 	margin-left: 130 !important;
 	margin-right: 0px !important;
 	text-decoration: none;
-
-
 }
 
+
 *
-.menubalk
-{
+.menubalk{
   display: none;
 }
 
