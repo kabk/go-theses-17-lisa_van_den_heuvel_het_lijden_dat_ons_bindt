@@ -291,7 +291,7 @@ dan basis elementen zoals p
 @media print {
     @page {
         margin-top: 1.5cm;
-        margin-bottom: 1.6cm;
+        margin-bottom: 1.7cm;
   
     }
 
@@ -301,44 +301,63 @@ dan basis elementen zoals p
 
 #voorwoord{
 	font-size: 10pt;
-	margin-top: 180px;
+	margin-top: 130px;
+	padding-bottom: 145px;
+
 
 }
 
 #lijden{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #psychologie{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #hetsublieme{
 	font-size: 10pt;
+	padding-bottom: 145px;
 }
 
 #afstand{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #kunst{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #conclusie{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #bijlagen{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #bronnen{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 #abstract{
 	font-size: 10pt;
+	padding-bottom: 145px;
+
 }
 
 
