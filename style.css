@@ -18,10 +18,11 @@
 	border-width: 0px 0px 5px 0px;*/
 	top: 0;
 	position: fixed;
-	padding: 2% 5%;
+	padding:  1%;
+	margin-left: 10px;
 	font-size: 8px;
 	background-color: white;
-	width: 80%;
+	width: 100%;
 	font-family: Andale Mono;
 	letter-spacing:-0.1pt;
 	color: white;
@@ -342,11 +343,7 @@ dan basis elementen zoals p
 
 }
 
-#bijlagen{
-	font-size: 10pt;
-	padding-bottom: 145px;
 
-}
 
 #bronnen{
 	font-size: 10pt;
@@ -386,16 +383,20 @@ body {
 
 header {
 		margin-top: 30px;
-		padding-bottom: 80px;
+		padding-bottom: 169px;
 		text-align: center;
 		font-size: 85px;
+		letter-spacing: 1pt;
+
 	}
 
 h1{
 
-		line-height: 50pt;
+		line-height: 65pt;
 		text-align: left;
-		font-size: 65px;
+		font-size: 85px;
+		letter-spacing: 2pt;
+		width:630px;
 
 
 }	
